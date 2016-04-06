@@ -10,10 +10,14 @@ width = float(input("What is the width of the floor in meters?: "))
 height = float(input("What is the length of the floor in meters?: "))
 
 SurfaceArea = width * height
-print(SurfaceArea)
+
+#turn on for testing
+#print(SurfaceArea)
 
 NumberofTiles = round(SurfaceArea / ((TileSize / 100) ** 2))
-print(NumberofTiles)
+
+#turn on for testing
+#print(NumberofTiles)
 
 TotalCost = NumberofTiles * TilePrice
 
