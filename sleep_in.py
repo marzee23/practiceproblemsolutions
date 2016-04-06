@@ -4,7 +4,6 @@
 #sleep_in(False, False) → True
 #sleep_in(True, False) → False
 #sleep_in(False, True) → True
-#
 
 def sleep_in(weekday, vacation):
 	if not weekday or vacation: 
@@ -12,21 +11,16 @@ def sleep_in(weekday, vacation):
 	else:
 		print("Sucks to suck...gotta wake up early!")
 	
-
-weekday = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+weekdays = {"monday", "tuesday", "wednesday", "thursday", "friday"}
 
 vacation_Yes_No = input("Are you on vacation?: ")
 
-if "yes" in vacation_Yes_No:
+if vacation_Yes_No == "yes":
 	vacation = True
 else:
 	vacation = False
-	
-weekday_Yes_No = input("What day of the week is it?: ")
 
-for weekday in weekday_Yes_No:
-	weekday = True
-else: 
-	weekday = False
+today = input("What day of the week is it?: ")
+weekday = today in weekdays
 
 sleep_in(weekday, vacation)
