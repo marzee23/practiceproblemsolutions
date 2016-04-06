@@ -12,3 +12,4 @@ Problems taken from:
 |Reverse_String | 2/3/2016 |Python|Reverses a user-generated string|
 |Change_calculator|2/3/2016| Python|Calculates change and amount of each coin when given amount owed and amount paid|
 |Check_If_Palindrome|2/4/2016|Python| Reports if a user generated string is a palindrome|
+|Tile_Cost_Calculator|4/6/2016|Python| Calculates cost of tiles given user-inputted tile size, cost, and floor dimensions|
