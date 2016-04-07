@@ -7,14 +7,13 @@ StringToCount = list(input("Enter a phrase to count the vowels: "))
 #make lowercase using list comprehension
 [letter.lower() for letter in StringToCount]
 
-
 #sets can only contain unique values
 vowels = {"a", "e", "i", "o", "u"}
 
-def CountVowels (StringToCount):
-	NumberOfVowels = 0
-	for vowel in StringToCount:
-		NumberOfVowels += 1
-	print(NumberOfVowels)
+VowelsInString = []
 	
-CountVowels(StringToCount)
+for letter in StringToCount:
+	if letter in vowels:
+		VowelsInString.append(letter)
+
+print(len(VowelsInString))
