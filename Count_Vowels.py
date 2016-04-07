@@ -14,3 +14,10 @@ for letter in StringToCount:
 		VowelsInString.append(letter)
 
 print("There are",len(VowelsInString), "vowels in that text!")
+
+#Counts each letter... eventually fix this to iterate over values in vowels
+print("There are", VowelsInString.count('a'), "A's!")
+print("There are", VowelsInString.count('e'), "E's!")
+print("There are", VowelsInString.count('i'), "I's!")
+print("There are", VowelsInString.count('o'), "O's!")
+print("There are", VowelsInString.count('u'), "U's!")
