@@ -13,14 +13,14 @@ def sleep_in(weekday, vacation):
 	
 weekdays = {"monday", "tuesday", "wednesday", "thursday", "friday"}
 
-vacation_Yes_No = input("Are you on vacation?: ")
+vacation_Yes_No = input("Are you on vacation?: ").lower()
 
 if vacation_Yes_No == "yes":
 	vacation = True
 else:
 	vacation = False
 
-today = input("What day of the week is it?: ")
+today = input("What day of the week is it?: ").lower()
 weekday = today in weekdays
 
 sleep_in(weekday, vacation)
