@@ -15,9 +15,6 @@ for letter in StringToCount:
 
 print("There are",len(VowelsInString), "vowels in that text!")
 
-#Counts each letter... eventually fix this to iterate over values in vowels
-print("There are", VowelsInString.count('a'), "A's!")
-print("There are", VowelsInString.count('e'), "E's!")
-print("There are", VowelsInString.count('i'), "I's!")
-print("There are", VowelsInString.count('o'), "O's!")
-print("There are", VowelsInString.count('u'), "U's!")
+#Counts each letter
+for vowel in sorted(list(vowels)):
+	print("There are", VowelsInString.count(vowel), vowel.upper(), "'s!")
