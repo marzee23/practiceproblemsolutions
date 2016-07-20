@@ -17,3 +17,4 @@ Problems taken from:
 |GE PNET DWG Hierarchy|3/29/2016|Python| Creates an excel file of file pathways for files ending in .dwg within a user-inputted file directory (work specific problem)|
 |Tile_Cost_Calculator|4/6/2016|Python| Calculates cost of tiles given user-inputted tile size, cost, and floor dimensions|
 |Count_Vowels|4/7/2016|Python| Calculates number of vowels in a user-inputted string|
+|Word_Count|7/20/2016|Python| Calculates number of words in a user-inputted string|
